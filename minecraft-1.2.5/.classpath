@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="build/resources/test" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+			<attribute name="resource" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/test" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/resources/teavm" path="src/teavm/resources">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+			<attribute name="resource" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/teavm" path="src/teavm/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/resources/main" path="src/main/resources">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+			<attribute name="resource" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/main" path="src/main/java">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/test" path="build/generated/sources/annotationProcessor/java/test">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/teavm" path="build/generated/sources/annotationProcessor/java/teavm">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/main" path="build/generated/sources/annotationProcessor/java/main">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-18">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/com.jcraft/jzlib/1.1.3/c01428efa717624f7aabf4df319939dda9646b2d/jzlib-1.1.3.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/com.jcraft/jzlib/1.1.3/3102d5e0e3e6cdb601b42f7bdcbff13167a2226d/jzlib-1.1.3-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-jso-apis/0.9.2/fc992fdb96f716c3842390793fd620cedbbfe14b/teavm-jso-apis-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-jso-apis/0.9.2/49b9ecf2912aef69cc570efc02bbd4f76ff065b9/teavm-jso-apis-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-classlib/0.9.2/f813257af4faaf6c5cef42df3e3374d6f9a8dfba/teavm-classlib-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-classlib/0.9.2/44badbbebaacb5db56b63e28774b6fe4f6c5ac30/teavm-classlib-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/a2503f302b11ebde7ebc3df41daebe0e4eea3689/commons-io-2.11.0.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/2ef0187124bbfc7aed3038d4ffdd2241e8992937/commons-io-2.11.0-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-jso-impl/0.9.2/647823ca382f269a6af5f607660b6524284e1dbf/teavm-jso-impl-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-jso-impl/0.9.2/3b54331404a0bddc4deb6f2c5ea0119070f12a0a/teavm-jso-impl-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.12.2/78e18a7b4180e911dafba0a412adfa82c1e3d14b/joda-time-2.12.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.12.2/6fd6d900533a2c4ea5a2b0fc8911a5a23f6a82a2/joda-time-2.12.2-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-interop/0.9.2/f65fa0c3c713cf776416dabf52333041689b9b75/teavm-interop-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-interop/0.9.2/a95fbd4c49d1c9c2c4c1564f6b09aa82b1c01805/teavm-interop-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-platform/0.9.2/97ddb53ed31958bda9b2853086ab7073b5ee30c6/teavm-platform-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-platform/0.9.2/254a71a4ae5e1c4de54c6424a6f86e87b0b9dca1/teavm-platform-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-jso/0.9.2/6c8c581af829fc64bb7e33513a40a7bc30a59127/teavm-jso-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-jso/0.9.2/f925211121d487aed4fcf92c912af0affba2ecbc/teavm-jso-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-metaprogramming-impl/0.9.2/8554733693688b17e0f5978784114b05c8c08b0e/teavm-metaprogramming-impl-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-metaprogramming-impl/0.9.2/9addb862b01afd1b3eda03a18ce7e3de317e39db/teavm-metaprogramming-impl-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-hppc/0.9.2/2553b9f4a832d12d74a82f7c23a0d5bec009e854/teavm-relocated-libs-hppc-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-hppc/0.9.2/2ad14aed781c4a73ed4dbb421966d408a0a06686/teavm-relocated-libs-hppc-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-client/9.4.50.v20221201/7b8fe98d34b9fc882572db4196698fda95c1847d/jetty-client-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-client/9.4.50.v20221201/eaf3a55e27668b19c9f73a06fa722d6f4813ce42/jetty-client-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.4/8fc2810ddbcbbec0a8bbccb3f8eda58321839912/asm-commons-9.4.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.4/3b13ed8d997eb49e62d7e237dd37ce8e9e825208/asm-commons-9.4-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.4.50.v20221201/92d86463bfca6241873679002ea2a012a0653990/jetty-util-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.4.50.v20221201/eb308a41bda810a54695ee34060fd153b7ce457a/jetty-util-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-server-impl/9.4.50.v20221201/29124cac81119d4bcfa2ab90616bf28c107354ee/javax-websocket-server-impl-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-server-impl/9.4.50.v20221201/575c224d79ccc248774423d5b8ff481b21c6abb3/javax-websocket-server-impl-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.4.50.v20221201/ee63cd762c3bf4ee8767a812d9d523b1a17bf78b/websocket-api-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.4.50.v20221201/4fda5a339232498af403716e6155582091bd2c2b/websocket-api-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.4.50.v20221201/96fc6a099a6a00ced5e2d9605ed5f383a52a1839/jetty-servlet-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.4.50.v20221201/224f41235498eb2e5ed8d6c2f4ebf29d2fe14bab/jetty-servlet-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.14.2/1e71fddbc80bb86f71a6345ac1e8ab8a00e7134/jackson-databind-2.14.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.14.2/e3c1c58faa2bc0d8c3b40e478102eb2ffba07ce3/jackson-databind-2.14.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.50.v20221201/eeae601b8c0483779a88c53d7fb0aedf4c73a0de/jetty-server-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.50.v20221201/ab826799405d96f87f711dbe24f75281174dd75a/jetty-server-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-plus/9.4.50.v20221201/1857702843f7be5ebdf9fb144e646f00346f94ce/jetty-plus-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-plus/9.4.50.v20221201/961188d266b5022a64a9b3e7695ef09d4676f252/jetty-plus-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.4/b4e0e2d2e023aa317b7cfcfc916377ea348e07d1/asm-9.4.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.4/6dddbde6cbd323bebe46cf301a47ffbe9e804d4/asm-9.4-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.14.2/f804090e6399ce0cf78242db086017512dd71fcc/jackson-core-2.14.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.14.2/8217d78341a78cd2fbc69f26372e40d38f8767da/jackson-core-2.14.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.4.50.v20221201/efd773dafdd30c7108da63687b55afe203eaf50c/jetty-security-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.4.50.v20221201/9c121a4b8538a47b2048c4b217970c578cd53131/jetty-security-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.4.50.v20221201/d48fe54eb5e89c5102ede1fd9d7b59b2b9615b97/websocket-common-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.4.50.v20221201/aa0a49ab09ea9370bd2a0f61292bc6c7891ae995/websocket-common-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-annotations/9.4.50.v20221201/8a542fa54c603737c2444bdf98ec419840a5cd74/jetty-annotations-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-annotations/9.4.50.v20221201/d06c3572efd41cd9cbf13f8162f9a91aad91635a/jetty-annotations-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/65dfd2c47380bf72ec62a5b8c4ceb78a4eda1a53/javax.annotation-api-1.3.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-asm-util/0.9.2/4e8ba1d26f0e6a49267c4f2ec251f1387d16ee2a/teavm-relocated-libs-asm-util-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-asm-util/0.9.2/2ad14aed781c4a73ed4dbb421966d408a0a06686/teavm-relocated-libs-asm-util-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.4.50.v20221201/df7cea38eaf86021e66455d5f6cc1ab5a04475c0/jetty-io-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.4.50.v20221201/671f0877d94aeffbf0c6999a7a1cdb899937cfd8/jetty-io-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.4.50.v20221201/c25b9cb2313b17a4dbbca372a7050f6f1518e3d9/websocket-servlet-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.4.50.v20221201/5f0268a3d7f56279584d5af738ca8d7536cfc55a/websocket-servlet-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.4.50.v20221201/92f544fa3fa330431f22840157cb7f0fd413e717/websocket-client-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.4.50.v20221201/be0538f6ea284d4bb36fc48b6e9b38f442410bc3/websocket-client-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-tooling/0.9.2/5d62f0240521751bdf1bc4580787d1b7125f78dc/teavm-tooling-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-tooling/0.9.2/f3a753289d6777fca473c4b48ba5a100433b07f1/teavm-tooling-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-junit/0.9.2/5f0532ec80f2c8ebcb7feb70237b032e06ee0737/teavm-junit-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-junit/0.9.2/24b1f0a99b129d8e89322bfc39d58bee07d4c852/teavm-junit-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-core/0.9.2/36a824eee7a218fb91eae87f7b1c62d3cb309776/teavm-core-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-core/0.9.2/a5402cd9b96f037b94d9bf1f947e5fe4e0841712/teavm-core-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-rhino/0.9.2/252571154bc26bb58489d2207b75f6b366481040/teavm-relocated-libs-rhino-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-rhino/0.9.2/2ad14aed781c4a73ed4dbb421966d408a0a06686/teavm-relocated-libs-rhino-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-asm-tree/0.9.2/9f48fe18a14625836e17825d97f775630cc3e5f4/teavm-relocated-libs-asm-tree-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-asm-tree/0.9.2/2ad14aed781c4a73ed4dbb421966d408a0a06686/teavm-relocated-libs-asm-tree-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-commons-io/0.9.2/cbe083174fc5f21cc871183db8342e655cf224d5/teavm-relocated-libs-commons-io-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-commons-io/0.9.2/2ad14aed781c4a73ed4dbb421966d408a0a06686/teavm-relocated-libs-commons-io-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-client-api/1.0/afcf19e889d8725576811f8d47ab6c65d9dcbd78/javax.websocket-client-api-1.0.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-client-api/1.0/57ee0d4138e37dc6a9b3d264dea853cb468ae4c8/javax.websocket-client-api-1.0-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.4/a99175a17d7fdc18cbcbd0e8ea6a5d276844190a/asm-tree-9.4.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.4/88ef8527722d37849cca788dc90ebd44e7084226/asm-tree-9.4-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.4.50.v20221201/f1f92677ac7669af6aa4145b41255931f67cd22a/websocket-server-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.4.50.v20221201/be9f0f7e7855bd6fae687971130b7b70962e85d3/websocket-server-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-client-impl/9.4.50.v20221201/eec9318b8dc6b03fd448d4d0e0a58760280acfd1/javax-websocket-client-impl-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-client-impl/9.4.50.v20221201/6545f6b0567ad03f2eaf2f63a652d5b7c9135029/javax-websocket-client-impl-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.0/fc843b649d4a1dcb0497669d262befa3918c7ba8/javax.websocket-api-1.0.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.0/107b0fdc7ca320b54dc1393e01585be5883ff348/javax.websocket-api-1.0-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.4.50.v20221201/f025a779b60e276ee9e4edd03f7f6bf853ea0521/jetty-http-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.4.50.v20221201/e87f8918cdd1b3ae9ce25adbb4076e9814b9ab88/jetty-http-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-asm/0.9.2/92821f2c2b3604a0e1ef543afbd350355113f4da/teavm-relocated-libs-asm-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-asm/0.9.2/2ad14aed781c4a73ed4dbb421966d408a0a06686/teavm-relocated-libs-asm-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-asm-commons/0.9.2/68fe9168bcd9ce1f12be9cde0b6b4e8e48fe2e01/teavm-relocated-libs-asm-commons-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-asm-commons/0.9.2/2ad14aed781c4a73ed4dbb421966d408a0a06686/teavm-relocated-libs-asm-commons-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-asm-analysis/0.9.2/32aeeac68547d85f2cfb72af3dcf2b1fc4b831c0/teavm-relocated-libs-asm-analysis-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-relocated-libs-asm-analysis/0.9.2/2ad14aed781c4a73ed4dbb421966d408a0a06686/teavm-relocated-libs-asm-analysis-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.14.2/a7aae9525864930723e3453ab799521fdfd9d873/jackson-annotations-2.14.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.14.2/3d74e455fa89503ce195b9cb87a29612060f9cc8/jackson-annotations-2.14.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-jndi/9.4.50.v20221201/43021375a0188bf65d9fbbeb32bb408d2de01535/jetty-jndi-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-jndi/9.4.50.v20221201/63e7a0fb07b4fc43790e8bfafddfdeeb6c8f372f/jetty-jndi-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util-ajax/9.4.50.v20221201/820176b43c83e5662c119d734580f1b590cb4c34/jetty-util-ajax-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util-ajax/9.4.50.v20221201/1da4b00aaaa5e6602078cb159cc659806f9098a6/jetty-util-ajax-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.4.50.v20221201/f920133d10561a8068d798923ea7f0d42c2bff1f/jetty-xml-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.4.50.v20221201/1aa8d2b6f327f8a089e87b5b04c81b191637c9a3/jetty-xml-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.4.50.v20221201/b11fa1857af2c9959f1d01cfcccc204c39dac486/jetty-webapp-9.4.50.v20221201.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.4.50.v20221201/b1220b73d9fa8b33bdbd0d9aa6e016402b960ab3/jetty-webapp-9.4.50.v20221201-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-metaprogramming-api/0.9.2/b4b8eab8bb8c18fd0940dcca4463f21700bf607/teavm-metaprogramming-api-0.9.2.jar" sourcepath="C:/Users/Sabine/.gradle/caches/modules-2/files-2.1/org.teavm/teavm-metaprogramming-api/0.9.2/b4b4295b10f3a02df5cb034abf84aa8b9a3d0a42/teavm-metaprogramming-api-0.9.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="output"/>
+</classpath>

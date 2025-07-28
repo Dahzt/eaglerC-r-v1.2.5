@@ -1,0 +1,196 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 1073741824 bytes for Failed to commit area from 0x00000000c0000000 to 0x0000000100000000 of length 1073741824.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_windows.cpp:3386), pid=3708, tid=8972
+#
+# JRE version:  (11.0.19+7) (build )
+# Java VM: OpenJDK 64-Bit Server VM (11.0.19+7-LTS, mixed mode, sharing, tiered, compressed oops, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Xms1024M -Xmx1024M -Djava.library.path=C:\Users\Peyton Scarborough\Downloads\libraries\natives org.mcphackers.launchwrapper.Launch --username Player094 --session - --gameDir C:\Users\Peyton Scarborough\Downloads\minecraft_any\game --assetsDir C:\Users\Peyton Scarborough\Downloads\minecraft_any\game\assets --resourcesProxyPort 11707 --skinProxy pre-1.8 
+
+Host: Intel(R) Celeron(R) N4000 CPU @ 1.10GHz, 2 cores, 3G,  Windows 10 , 64 bit Build 19041 (10.0.19041.2913)
+Time: Thu Jun 20 15:46:02 2024 Pacific Daylight Time elapsed time: 0.206324 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000001da6a5cb800):  JavaThread "Unknown thread" [_thread_in_vm, id=8972, stack(0x000000bbb7f00000,0x000000bbb8000000)]
+
+Stack: [0x000000bbb7f00000,0x000000bbb8000000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x62c3ca]
+V  [jvm.dll+0x7ba6b9]
+V  [jvm.dll+0x7bbda8]
+V  [jvm.dll+0x7bc483]
+V  [jvm.dll+0x253298]
+V  [jvm.dll+0x6296ca]
+V  [jvm.dll+0x61dc85]
+V  [jvm.dll+0x30e92c]
+V  [jvm.dll+0x30e7b2]
+V  [jvm.dll+0x3134c6]
+V  [jvm.dll+0x35b03f]
+V  [jvm.dll+0x35aa70]
+V  [jvm.dll+0x2eb078]
+V  [jvm.dll+0x2ec1d6]
+V  [jvm.dll+0x794667]
+V  [jvm.dll+0x795df1]
+V  [jvm.dll+0x367e89]
+V  [jvm.dll+0x777500]
+V  [jvm.dll+0x3d9b3f]
+V  [jvm.dll+0x3dbed1]
+C  [jli.dll+0x5227]
+C  [ucrtbase.dll+0x21bb2]
+C  [KERNEL32.DLL+0x17614]
+C  [ntdll.dll+0x526a1]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x000001da6a4c2ca0, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x000001da6a5e4800 GCTaskThread "GC Thread#0" [stack: 0x000000bbb8000000,0x000000bbb8100000] [id=9684]
+  0x000001da6a5ff000 ConcurrentGCThread "G1 Main Marker" [stack: 0x000000bbb8100000,0x000000bbb8200000] [id=8200]
+  0x000001da6a601000 ConcurrentGCThread "G1 Conc#0" [stack: 0x000000bbb8200000,0x000000bbb8300000] [id=9420]
+
+[error occurred during error reporting (printing all threads), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ff977bbaf17]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x000001da6a5c7230] Heap_lock - owner thread: 0x000001da6a5cb800
+
+Heap address: 0x00000000c0000000, size: 1024 MB, Compressed Oops mode: Non-zero based: 0x00000000c0000000
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (1 events):
+Event: 0.108 Loaded shared library C:\Program Files\Zulu\zulu-11\bin\zip.dll
+
+
+Dynamic libraries:
+0x00007ff6be210000 - 0x00007ff6be21d000 	C:\Program Files\Zulu\zulu-11\bin\java.exe
+0x00007ff9c9ff0000 - 0x00007ff9ca1e8000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ff9c9bf0000 - 0x00007ff9c9caf000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ff9c76d0000 - 0x00007ff9c79c6000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ff9c4690000 - 0x00007ff9c4721000 	C:\WINDOWS\SYSTEM32\apphelp.dll
+0x00007ff9c7af0000 - 0x00007ff9c7bf0000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ff9c1780000 - 0x00007ff9c1797000 	C:\Program Files\Zulu\zulu-11\bin\jli.dll
+0x00007ff9c9a50000 - 0x00007ff9c9bed000 	C:\WINDOWS\System32\USER32.dll
+0x00007ff9c7cb0000 - 0x00007ff9c7cd2000 	C:\WINDOWS\System32\win32u.dll
+0x00007ff9c9a20000 - 0x00007ff9c9a4c000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ff9c79d0000 - 0x00007ff9c7ae5000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ff9c7ce0000 - 0x00007ff9c7d7d000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ff9aa620000 - 0x00007ff9aa8ba000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\COMCTL32.dll
+0x00007ff9c8c70000 - 0x00007ff9c8d0e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ff9bda20000 - 0x00007ff9bda35000 	C:\Program Files\Zulu\zulu-11\bin\VCRUNTIME140.dll
+0x00007ff9c9cb0000 - 0x00007ff9c9ce0000 	C:\WINDOWS\System32\IMM32.DLL
+0x00007ff9af990000 - 0x00007ff9afa2b000 	C:\Program Files\Zulu\zulu-11\bin\msvcp140.dll
+0x00007ff9778c0000 - 0x00007ff978456000 	C:\Program Files\Zulu\zulu-11\bin\server\jvm.dll
+0x00007ff9c9ce0000 - 0x00007ff9c9d8f000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ff9c8050000 - 0x00007ff9c80ec000 	C:\WINDOWS\System32\sechost.dll
+0x00007ff9c93f0000 - 0x00007ff9c9516000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ff9c95d0000 - 0x00007ff9c95d8000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ff9c0190000 - 0x00007ff9c0199000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ff9c9f40000 - 0x00007ff9c9fab000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ff9b20b0000 - 0x00007ff9b20d7000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ff9c5150000 - 0x00007ff9c515a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ff9c5f50000 - 0x00007ff9c5f62000 	C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+0x00007ff9bd930000 - 0x00007ff9bd940000 	C:\Program Files\Zulu\zulu-11\bin\verify.dll
+0x00007ff9c5c50000 - 0x00007ff9c5e34000 	C:\WINDOWS\SYSTEM32\DBGHELP.DLL
+0x00007ff9c1b20000 - 0x00007ff9c1b54000 	C:\WINDOWS\SYSTEM32\dbgcore.DLL
+0x00007ff9c7e60000 - 0x00007ff9c7ee2000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ff9b0820000 - 0x00007ff9b0848000 	C:\Program Files\Zulu\zulu-11\bin\java.dll
+0x00007ff9bd760000 - 0x00007ff9bd76a000 	C:\Program Files\Zulu\zulu-11\bin\jimage.dll
+0x00007ff9b03c0000 - 0x00007ff9b03d8000 	C:\Program Files\Zulu\zulu-11\bin\zip.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Program Files\Zulu\zulu-11\bin;C:\WINDOWS\SYSTEM32;C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e;C:\Program Files\Zulu\zulu-11\bin\server
+
+VM Arguments:
+jvm_args: -Xms1024M -Xmx1024M -Djava.library.path=C:\Users\Peyton Scarborough\Downloads\libraries\natives 
+java_command: org.mcphackers.launchwrapper.Launch --username Player094 --session - --gameDir C:\Users\Peyton Scarborough\Downloads\minecraft_any\game --assetsDir C:\Users\Peyton Scarborough\Downloads\minecraft_any\game\assets --resourcesProxyPort 11707 --skinProxy pre-1.8 
+java_class_path (initial): C:\Users\Peyton Scarborough\Downloads\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;C:\Users\Peyton Scarborough\Downloads\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;C:\Users\Peyton Scarborough\Downloads\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4\lwjgl-2.9.4.jar;C:\Users\Peyton Scarborough\Downloads\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4\lwjgl_util-2.9.4.jar;C:\Users\Peyton Scarborough\Downloads\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.3\lwjgl-platform-2.9.3.jar;C:\Users\Peyton Scarborough\Downloads\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5.jar;C:\Users\Peyton Scarborough\Downloads\libraries\org\mcphackers\launchwrapper\1.0\launchwrapper-1.0.jar;C:\Users\Peyton Scarborough\Downloads\libraries\org\ow2\asm\asm-tree\9.2\asm-tree-9.2.jar;C:\Users\Peyton Scarborough\Downloads\libraries\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\Peyton Scarborough\Downloads\libraries\org\json\json\20230311\json-20230311.jar;C:\Users\Peyton Scarborough\Downloads\libraries\com\paulscode\codecjorbis\20230120\codecjorbis-20230120.jar;C:\Users\Peyton Scarborough\Downloads\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;C:\Users\Peyton Scarborough\Downloads\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;C:\Users\Peyton Scarborough\Downloads\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;C:\Users\Peyton Scarborough\Downloads\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;C:\Users\Peyton Scarborough\Downloads\libraries\org\mcphackers\rdi\rdi\1.0\rdi-1.0.jar;C:\Users\Peyton Scarborough\Downloads\minecraft\bin;C:\Users\Peyton Scarborough\Downloads\minecraft\jars\deobfuscated.jar
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 2                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 1                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 2                                         {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 1048576                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 1073741824                                {product} {command line}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 1073741824                                {product} {command line}
+   size_t MinHeapDeltaBytes                        = 1048576                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5825164                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122916538                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122916538                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+     bool UseCompressedClassPointers               = true                                 {lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                                 {lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+PATH=C:\Program Files\Google\Chrome\Application;C:\Program Files\Zulu\zulu-11\bin\;C:\Program Files\Zulu\zulu-8\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Peyton Scarborough\AppData\Local\Microsoft\WindowsApps;C:\Users\Peyton Scarborough\AppData\Local\GitHubDesktop\bin;C:\Users\Peyton Scarborough\AppData\Roaming\npm
+USERNAME=Peyton Scarborough
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 122 Stepping 1, GenuineIntel
+TMP=C:\Users\PEYTON~1\AppData\Local\Temp
+TEMP=C:\Users\PEYTON~1\AppData\Local\Temp
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10 , 64 bit Build 19041 (10.0.19041.2913)
+OS uptime: 0 days 13:57 hours
+
+CPU:total 2 (initial active 2) (2 cores per cpu, 1 threads per core) family 6 model 122 stepping 1 microcode 0x2e, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, aes, clmul, erms, 3dnowpref, tsc, tscinvbit, sha
+
+Memory: 4k page, system-wide physical 3918M (725M free)
+TotalPageFile size 5966M (AvailPageFile size 792M)
+current process WorkingSet (physical memory assigned to process): 10M, peak: 10M
+current process commit charge ("private bytes"): 47M, peak: 1071M
+
+vm_info: OpenJDK 64-Bit Server VM (11.0.19+7-LTS) for windows-amd64 JRE (Zulu11.64+19-CA) (11.0.19+7-LTS), built on Apr 10 2023 13:00:29 by "zulu_re" with MS VC++ 15.9 (VS2017)
+
+END.

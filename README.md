@@ -1,5 +1,5 @@
-This is just the source code inside a .zip file.
+This is just the source code of eaglercraft 1.2.5
 
 
 
-**All credits go to Peytonplayz595**
+**I did not make this, All credits go to Peytonplayz595**
